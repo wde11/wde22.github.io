@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon"
+        href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA0MP3AP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiAAAAACIiIiIiAAACIiIiIiIgACIRESIRESAAIhESIiIRIgAiIgIiICIiACIiAiIgIiIAAiIiIiIiIgAAIiIiIiIiAAACIiAiIiIAAAIiICIiIAAAACIgIiIgAAAAIiICIgAAAAACIgAAAAAAAAAAAAAADwDwAAwAMAAIABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAwAAAAOAAAADwAQAA8AEAAPADAAD4fwAA"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Navigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+        <a href="#" onclick="openAction(event, 'Home'); closeNav();">Home</a>
+        <a href="#" onclick="openAction(event, 'AboutMe'); closeNav();">About Me</a>
+        <a href="#" onclick="openAction(event, 'Projects'); closeNav();">Projects</a>
+        <a href="#" onclick="openAction(event, 'References'); closeNav();">References</a>
+    </div>
+
+    <span class="burger" onclick="openNav()">&#9776;</span>
+
+    <div id="Home" class="acontent">
+        <h1 class="hdr1">Welcome</h1>
+        <p class="center">This is the home page for my portfolio. Click the <b>hamburger icon</b> on the top left corner
+            to explore!</p>
+
+        <footer>
+            <div class="social-icon"><a href="https://github.com/wde11" class="fab fa-github" target="_blank"></a></div>
+            <div class="social-icon"><a href="https://www.instagram.com/wrldwar_2/" class="fab fa-instagram"
+                    target="_blank"></a></div>
+            <div class="social-icon"><a href="#" data-toggle="popover" data-trigger="hover" data-content="wurai"
+                    class="fab fa-discord"></a></div>
+        </footer>
+    </div>
+
+    <div id="AboutMe" class="acontent">
+        <div class="info">
+            <img src="me_pic2.jpg" class="img1">
+            <p>My name is <b>Troy Wendell G. Peralta</b>, a 19-year-old BSIT sophomore college student from the
+                University of the Immaculate Conception. I enjoy playing video games, listening, and creating music.</p>
+        </div>
+        
+    </div>
+
+    <div id="Projects" class="acontent">
+        <p>ITRZ Management System</p>
+        <div class="embed-container">
+            <iframe loading="lazy" src="https://www.canva.com/design/DAGDUVyPXGc/fKywY3_Zw7XYBUZ7Vly-bA/view?embed"
+                allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+        </div>
+        <a href="https://www.canva.com/design/DAGDUVyPXGc/fKywY3_Zw7XYBUZ7Vly-bA/view?utm_content=DAGDUVyPXGc&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+            target="_blank" rel="noopener">(BSIT-1B) ITRZ Tools Booking Management</a> by LORRYBETH ANDREA N. TADLA
+    </div>
+
+    <div id="References" class="acontent">
+        <p>Pictures and edits</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

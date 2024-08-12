@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    text-align: justify;
+    color: #000;
+}
+
+.acontent {
+    padding: 30px;
+    width: 70%;
+    margin: 100px auto;
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0a0a0a;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: #3d3d3d;
+}
+
+.sidenav .closebutton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.burger {
+    
+    left: 150px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.img1 {
+    border-radius: 5%;
+    margin-right: 50px;
+    margin-left: 80px;
+    width: 25%;
+    height: 25%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 150px;
+}
+
+.hdr1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.music {
+    float: left;
+    margin: 45px 50px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.social-icon a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.embed-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+    margin-top: 1.6em;
+    margin-bottom: 0.9em;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.embed-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
